@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.video-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.video-title {
+  font-weight: bold;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
